@@ -10,7 +10,7 @@
   background-color: white;
   gap: 0.7rem;
   max-width: 70rem;
-  z-index: 2;
+  z-index: 10;
   left: 50%;
   transform: translateX(-50%);
   top: 10rem;

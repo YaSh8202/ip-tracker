@@ -1,5 +1,5 @@
 .leaflet-container {
   width: 100vw;
   flex: 1;
-  z-index: -1;
+  z-index: 1;
 }
