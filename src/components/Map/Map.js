@@ -1,16 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
-import L from "leaflet";
 import "./Map.css";
-
-const myIcon = L.icon({
-  iconUrl: require("../../images/icon-location.png"),
-  iconSize: [32, 32],
-  iconAnchor: [32, 64],
-  popupAnchor: null,
-  shadowUrl: null,
-  shadowSize: null,
-  shadowAnchor: null,
-});
 
 function Map({ position }) {
   function ChangeView({ center, zoom }) {
